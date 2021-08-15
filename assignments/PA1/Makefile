@@ -8,6 +8,9 @@ LSRC= Makefile atoi.cl stack.test
 CC=gcc
 CFLAGS=-g
 
+run: compile
+	${CLASSDIR}/bin/spim -file stack.s
+
 .c.o:
 	${CC} ${CFLAGS} -c $<
 

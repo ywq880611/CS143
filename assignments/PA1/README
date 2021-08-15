@@ -1,3 +1,19 @@
+1. I am not very clear about the memory adree or life cycle
+of the object in cool.
+For example: in stack.cl:26 , the "let nil" is hard
+to understand for me.
+
+2. In stack.cl:25, func pushCommand, I did't know
+why it need a "{}" in the function, otherwise
+the compiler will occur an error.
+
+I thought the reason is just a expression in method,
+so bolcks({}) represent a expression. so each operation
+in blocks need semicolon, but if there is just one operation
+in the method, it didn't need blocks and semicolon, cause it's
+return value.
+
+-----------------Notes------------------
 
 README file for Programming Assignment 1
 ========================================
